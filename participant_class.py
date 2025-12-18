@@ -88,4 +88,4 @@ class Leaderboard:
         except FileNotFoundError:
             pass
 
-
+# This program uses OOP and file handling to manage participants and display a ranked leaderboard with history tracking.

@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 lb = Leaderboard()
 
-# Emoji constants (sirf use ke liye, logic same)
+# Emoji constants (just for using, logic same)
 SUCCESS = "✅"
 ERROR = "❌"
 TROPHY = "🏆"
@@ -153,3 +153,4 @@ while True:
     input("\nPress Enter to continue...")
 
 
+# This file acts as the main controller that integrates leaderboard logic, user interaction, decorators, logging, and data visualization.
