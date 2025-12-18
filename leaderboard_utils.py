@@ -17,13 +17,12 @@ top_performers = lambda participants, n=5: sorted(
     participants, key=lambda p: p.points, reverse=True
 )[:n]
 
-# Auto badge system based on points
-def get_badge(points):
-    if points >= 61:
+def get_badge_by_rank(rank): 
+    if rank == 1:
         return "🥇 Gold"
-    elif points >= 41:
+    elif rank == 2:
         return "🥈 Silver"
-    elif points >= 26:
+    elif rank == 3:
         return "🥉 Bronze"
     else:
         return "-"
